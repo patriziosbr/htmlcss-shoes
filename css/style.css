@@ -3,3 +3,44 @@
     padding: 0;
     margin: 0;
 }
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+h2 {
+    font-size: 55px;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    position: relative;
+}
+.top-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: right;
+    list-style: none;
+    background-color: #939393;
+}
+.top-bar li {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.wrapper{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top-bar a {
+    text-decoration: none;
+    color: black;
+}
