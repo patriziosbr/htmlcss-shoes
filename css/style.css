@@ -7,31 +7,37 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 h2 {
-    font-size: 55px;
+    font-size: 30px;
     text-align: center;
+    color: #FFFF00;
 }
 .container{
     width: 100%;
     position: relative;
 }
 .top-bar {
-    width: 100%;
+    width: 100%; /*opzionale*/
     position: fixed;
     top: 0;
     right: 0;
     text-align: right;
     list-style: none;
-    background-color: #939393;
+    background-color: rgba(0, 0, 0, 0.1); /*debug*/
+    z-index: 2;
 }
 .top-bar li {
     width: 50px;
-    height: 50px;
     text-align: center;
     display: inline-block;
     margin: 16px;
-    padding: 16px;
     background-color: #ffffff;
     border-radius: 50%;
+}
+.top-bar a {
+    padding: 16px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
 }
 .wrapper{
     width: 500px;
@@ -40,7 +46,22 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.top-bar a {
-    text-decoration: none;
-    color: black;
+.shoe-bg {
+    position: relative;
+    height: 100vh;
+}
+.shoe-bg img {
+    width: 100%;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-green {
+    background-color: seagreen;
+}
+.bg-yellow {
+    background-color: #FFFF00;
+}
+.title-green{
+    color: seagreen;
 }
