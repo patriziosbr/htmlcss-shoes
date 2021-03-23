@@ -20,7 +20,7 @@ h2 {
     position: fixed;
     top: 0;
     right: 0;
-    text-align: right;
+    text-align: right; /*da usare solo se width 100% attivo*/
     list-style: none;
     background-color: rgba(0, 0, 0, 0.1); /*debug*/
     z-index: 2;
